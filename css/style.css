@@ -1,7 +1,8 @@
 body{
 	margin:0px;
 	padding:0px;
-	background-image:url("img/image3.png");
+	background:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXtCGnfXEc98i8wGmlck2foJYE28Xc_Rim3e7ycTIqm8gYD0E");
+	background-color:black;
 	font-family:'Patrick Hand';
 	font-size:22px;
 }
@@ -13,7 +14,7 @@ body{
 .jumbotron{
 	position:relative;
 	top:60px;
-	background-image:url("img/image1.png");
+	background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_lOqd08RhMtPu8rMCVlKN_tZ3af715OaSMj0MsfyMQ15hz_1HFg");
 	margin-bottom:50px;
 	border-bottom:dotted 2px lightgrey;
 }
