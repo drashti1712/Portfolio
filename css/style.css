@@ -52,11 +52,24 @@ h2{
 	margin-top:20px;
 }
 footer{
-	background-color:yellow;
+	color:lightgrey;
 	margin-top:170px;
 	font-size:20px;
 	border-top:solid 2px white;
 }
+footer a{
+	color:lightgrey;
+	text-decoration:none;
+}
+footer a:visited {
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration:none;
+  color:#8b8b8b;
+}
+
 
 @media screen and (max-width:500px){
 	body{
