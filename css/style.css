@@ -23,10 +23,10 @@ body{
 }
 
 img{
-	border: solid 4px #031532; 
+	border: solid 2.5px #031532; 
 	background-color:white;
 	position:relative;
-	top:-10px;
+	/* top:-10px; */
 }
 
 h2{
@@ -34,8 +34,26 @@ h2{
 	text-align:center;
 	font-weight:bold;
 }
+.media-body h3{
+	color: yellow;
+	
+}
 .jumbotron h3,h4{
 	font-family:'Special Elite';
+}
+
+.extra h3{
+	text-align: center;
+	text-decoration: underline;
+	/* color:yellow; */
+}
+.extra{
+	border: solid 1px black;
+	border-radius:20px;
+	background-color:rgba(255, 255, 255, 0.637);
+	padding: 20px;
+	text-align: center;
+	color:black;
 }
 
 #allcontainers{
