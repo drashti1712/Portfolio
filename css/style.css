@@ -2,8 +2,8 @@ html {
   scroll-behavior: smooth;
 }
 body{
-	background:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXtCGnfXEc98i8wGmlck2foJYE28Xc_Rim3e7ycTIqm8gYD0E");
-	background-color:black;
+	/* background:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXtCGnfXEc98i8wGmlck2foJYE28Xc_Rim3e7ycTIqm8gYD0E"); */
+	background-color:#232b2b;
 	font-family:'Patrick Hand';
 	font-size:22px;
 }
@@ -15,13 +15,14 @@ body{
 .jumbotron{
 	position:relative;
 	top:60px;
+	height: 100vh;
 	background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_lOqd08RhMtPu8rMCVlKN_tZ3af715OaSMj0MsfyMQ15hz_1HFg");
 	margin-bottom:50px;
 	border-bottom:dotted 2px lightgrey;
 }
 
 img{
-	border: solid 2.5px #031532; 
+	border: solid 2.5px #fff; 
 	background-color:white;
 	position:relative;
 }
@@ -70,7 +71,7 @@ h2{
 footer{
 	color:lightgrey;
 	margin: 0px -15px -70px -15px;
-	background-color: #343a40;
+	background-color: #191d1d;
 	text-align: center;
 	font-size:20px;
 	border-top:solid 2px white; 
@@ -93,8 +94,24 @@ footer a:hover {
 	body{
 		text-align:center;
 	}
+	.jumbotron{
+		position:relative;
+		top:45px;
+		height: 100%;
+		background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_lOqd08RhMtPu8rMCVlKN_tZ3af715OaSMj0MsfyMQ15hz_1HFg");
+		margin-bottom:50px;
+		border-bottom:dotted 2px lightgrey;
+	}
 	#allcontainers{
 		margin-top: 100px;
 		margin-bottom:30px;
 	}
+}
+
+.navbar {
+	background-color:#191d1d;
+}
+
+.nav-icon{
+	color: white;
 }
